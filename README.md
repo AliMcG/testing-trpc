@@ -10,4 +10,14 @@ Testing tRPC routers to speed up development
 
 ## End to End testing with Cypress
 
-To test that an application runs as expected.
+To test that an application runs as expected. Cypress will open the app and "drive it" based on the params set out in the test suite.
+
+### To use this repo
+
+git clone the repo and run the command:
+
+```npm i```
+
+Check the available scripts in the ```package.json``` to run the tests or storybook
+
+For example: ```npm run test``` opens and runs the Jest test suite
